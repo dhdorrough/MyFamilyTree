@@ -1,0 +1,394 @@
+EurekaLog 5.1.12
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Thu, 4 May 2023 07:51:19 -0400
+  1.2 Name/Description: FamilyTree.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Mon, 18 Dec 2017 12:01:58 -0400
+
+Exception:
+-------------------------------------------------
+  2.1 Date   : Thu, 4 May 2023 07:53:41 -0400
+  2.2 Address: 004D2DA0
+  2.3 Module : FamilyTree.exe
+  2.4 Type   : EDatabaseError
+  2.5 Message: Cannot modify a read-only dataset.
+
+Active Controls:
+----------------------------------------------------------
+  3.1 Form Class   : TfrmLookupIndividual
+  3.2 Form Text    : Lookup Individual (Lookup Individual)
+  3.3 Control Class: TDBGrid
+  3.4 Control Text : 
+
+Computer:
+--------------------------------------------------------------
+  4.1 Name          : SURFACEPRO
+  4.2 User          : dhdor
+  4.3 Total Memory  : 2048 Mb
+  4.4 Free Memory   : 2048 Mb
+  4.5 Total Disk    : 2794.52 Gb
+  4.6 Free Disk     : 1695 Gb
+  4.7 System Up Time: 20 days, 6 hours, 55 minutes, 35 seconds
+  4.8 Processor     : Intel(R) Core(TM) i7-6650U CPU @ 2.20GHz
+  4.9 Display Mode  : 1920 x 1080, 32 bit
+
+Operating System:
+---------------------------------------
+  5.1 Type    : Microsoft Windows Vista
+  5.2 Build # : 9200
+  5.3 Update  : 
+  5.4 Language: English
+
+Network:
+---------------------------------------------------------------------------------------------------------------------------
+  6.1 IP Address: 000.000.000.000 - 192.168.001.065 - 192.168.056.001 - 000.000.000.000 - 000.000.000.000 - 000.000.000.000
+  6.2 Submask   : 000.000.000.000 - 255.255.255.000 - 255.255.255.000 - 000.000.000.000 - 000.000.000.000 - 000.000.000.000
+  6.3 Gateway   : 000.000.000.000 - 192.168.001.254 - 000.000.000.000 - 192.168.001.254 - 000.000.000.000 - 000.000.000.000
+  6.4 DNS 1     : 000.000.000.000 - 192.168.001.254 - 000.000.000.000 - 000.000.000.000 - 000.000.000.000 - 000.000.000.000
+  6.5 DNS 2     : 000.000.000.000 - 000.000.000.000 - 000.000.000.000 - 000.000.000.000 - 000.000.000.000 - 000.000.000.000
+  6.6 DHCP      : ON              - ON              - OFF             - ON              - ON              - ON             
+
+Call Stack Information:
+-------------------------------------------------------------------------------------------------------------------
+|Address |Module        |Unit                 |Class               |Procedure/Method                        |Line |
+-------------------------------------------------------------------------------------------------------------------
+| Exception Thread: ID=45212; Priority=0; Class=; [Main]                                                          |
+|-----------------------------------------------------------------------------------------------------------------|
+|004D2DA0|FamilyTree.exe|DB.pas               |                    |DatabaseError                           |2351 |
+|00507CF6|FamilyTree.exe|adodb.pas            |TCustomADODataSet   |GetCanModify                            |4419 |
+|00407324|FamilyTree.exe|system.pas           |                    |_CheckAutoResult                        |17234|
+|00507CFC|FamilyTree.exe|adodb.pas            |TCustomADODataSet   |GetCanModify                            |4419 |
+|004D2D20|FamilyTree.exe|DB.pas               |                    |DatabaseError                           |2348 |
+|004E52AE|FamilyTree.exe|DB.pas               |TDataSet            |CheckCanModify                          |10683|
+|004E5270|FamilyTree.exe|DB.pas               |TDataSet            |CheckCanModify                          |10682|
+|004E46B4|FamilyTree.exe|DB.pas               |TDataSet            |Edit                                    |10204|
+|004E4678|FamilyTree.exe|DB.pas               |TDataSet            |Edit                                    |10199|
+|0056E513|FamilyTree.exe|uBrowseMemo.pas      |TfrmBrowseMemo      |MemoTextChange                          |386  |
+|0048D799|FamilyTree.exe|StdCtrls.pas         |TCustomEdit         |Change                                  |1991 |
+|0048D770|FamilyTree.exe|StdCtrls.pas         |TCustomEdit         |Change                                  |1989 |
+|0054712E|FamilyTree.exe|dbctrls.pas          |TDBMemo             |Change                                  |3104 |
+|00404508|FamilyTree.exe|system.pas           |                    |_CallDynaInst                           |8706 |
+|0048D983|FamilyTree.exe|StdCtrls.pas         |TCustomEdit         |CMTextChanged                           |2046 |
+|0049CE4F|FamilyTree.exe|Controls.pas         |TControl            |WndProc                                 |4645 |
+|756F3FE0|user32.dll    |                     |                    |CallWindowProcA                         |     |
+|004A0B64|FamilyTree.exe|Controls.pas         |TWinControl         |DefaultHandler                          |6369 |
+|75C0E6A8|oleaut32.dll  |                     |                    |VariantClear                            |     |
+|75C0E610|oleaut32.dll  |                     |                    |VariantClear                            |     |
+|00413A6B|FamilyTree.exe|variants.pas         |                    |VarClearDeep                            |710  |
+|00413728|FamilyTree.exe|variants.pas         |                    |VarResultCheck                          |581  |
+|00413A70|FamilyTree.exe|variants.pas         |                    |VarClearDeep                            |710  |
+|00413A5C|FamilyTree.exe|variants.pas         |                    |VarClearDeep                            |707  |
+|00413AE5|FamilyTree.exe|variants.pas         |                    |_VarClear                               |742  |
+|00413AD8|FamilyTree.exe|variants.pas         |                    |_VarClear                               |739  |
+|00413AED|FamilyTree.exe|variants.pas         |                    |_VarClr                                 |748  |
+|00413AEC|FamilyTree.exe|variants.pas         |                    |_VarClr                                 |747  |
+|005074BC|FamilyTree.exe|adodb.pas            |TCustomADODataSet   |GetFieldData                            |4280 |
+|0049CC70|FamilyTree.exe|Controls.pas         |TControl            |WndProc                                 |4592 |
+|004A0A1E|FamilyTree.exe|Controls.pas         |TWinControl         |WndProc                                 |6342 |
+|004A0890|FamilyTree.exe|Controls.pas         |TWinControl         |WndProc                                 |6309 |
+|005476AB|FamilyTree.exe|dbctrls.pas          |TDBMemo             |WndProc                                 |3217 |
+|0049CB5A|FamilyTree.exe|Controls.pas         |TControl            |Perform                                 |4552 |
+|0049CB24|FamilyTree.exe|Controls.pas         |TControl            |Perform                                 |4547 |
+|0049B2BF|FamilyTree.exe|Controls.pas         |TControl            |SetTextBuf                              |3795 |
+|0049B294|FamilyTree.exe|Controls.pas         |TControl            |SetTextBuf                              |3793 |
+|0049B34C|FamilyTree.exe|Controls.pas         |TControl            |SetText                                 |3809 |
+|0049B308|FamilyTree.exe|Controls.pas         |TControl            |SetText                                 |3808 |
+|005474CF|FamilyTree.exe|dbctrls.pas          |TDBMemo             |DataChange                              |3180 |
+|00545705|FamilyTree.exe|dbctrls.pas          |TFieldDataLink      |RecordChanged                           |1570 |
+|00545447|FamilyTree.exe|dbctrls.pas          |TFieldDataLink      |SetField                                |1488 |
+|00545418|FamilyTree.exe|dbctrls.pas          |TFieldDataLink      |SetField                                |1483 |
+|005454A1|FamilyTree.exe|dbctrls.pas          |TFieldDataLink      |UpdateField                             |1499 |
+|00545458|FamilyTree.exe|dbctrls.pas          |TFieldDataLink      |UpdateField                             |1494 |
+|0054540D|FamilyTree.exe|dbctrls.pas          |TFieldDataLink      |SetFieldName                            |1478 |
+|005453E0|FamilyTree.exe|dbctrls.pas          |TFieldDataLink      |SetFieldName                            |1474 |
+|005471E0|FamilyTree.exe|dbctrls.pas          |TDBMemo             |SetDataField                            |3126 |
+|005471C8|FamilyTree.exe|dbctrls.pas          |TDBMemo             |SetDataField                            |3125 |
+|0056DB14|FamilyTree.exe|uBrowseMemo.pas      |TfrmBrowseMemo      |Create                                  |130  |
+|0056DA5C|FamilyTree.exe|uBrowseMemo.pas      |TfrmBrowseMemo      |Create                                  |121  |
+|00577129|FamilyTree.exe|uLookupIndividual.pas|TfrmLookupIndividual|DBGrid1DblClick                         |335  |
+|7570EC20|user32.dll    |                     |                    |GetFocus                                |     |
+|004A3AE1|FamilyTree.exe|Controls.pas         |TWinControl         |Focused                                 |7788 |
+|0049D0A5|FamilyTree.exe|Controls.pas         |TControl            |DblClick                                |4710 |
+|0056ADD7|FamilyTree.exe|dbgrids.pas          |TCustomDBGrid       |MouseDown                               |3460 |
+|75E0103A|win32u.dll    |                     |                    |NtUserGetKeyState                       |     |
+|00404508|FamilyTree.exe|system.pas           |                    |_CallDynaInst                           |8706 |
+|0049D189|FamilyTree.exe|Controls.pas         |TControl            |DoMouseDown                             |4728 |
+|0049D0F8|FamilyTree.exe|Controls.pas         |TControl            |DoMouseDown                             |4721 |
+|0049D27D|FamilyTree.exe|Controls.pas         |TControl            |WMLButtonDblClk                         |4752 |
+|0049CE4F|FamilyTree.exe|Controls.pas         |TControl            |WndProc                                 |4645 |
+|0049CC70|FamilyTree.exe|Controls.pas         |TControl            |WndProc                                 |4592 |
+|004A0A1E|FamilyTree.exe|Controls.pas         |TWinControl         |WndProc                                 |6342 |
+|76F9E7F0|ntdll.dll     |                     |                    |RtlLeaveCriticalSection                 |     |
+|00421C2A|FamilyTree.exe|classes.pas          |TThreadList         |UnlockList                              |3151 |
+|00421C1C|FamilyTree.exe|classes.pas          |TThreadList         |UnlockList                              |3150 |
+|00469C50|FamilyTree.exe|Graphics.pas         |                    |FreeMemoryContexts                      |4670 |
+|004A05F0|FamilyTree.exe|Controls.pas         |TWinControl         |MainWndProc                             |6237 |
+|00469BB8|FamilyTree.exe|Graphics.pas         |                    |FreeMemoryContexts                      |4658 |
+|004A0605|FamilyTree.exe|Controls.pas         |TWinControl         |MainWndProc                             |6240 |
+|76FAC837|ntdll.dll     |                     |                    |RtlDeactivateActivationContextUnsafeFast|     |
+|0042F53C|FamilyTree.exe|classes.pas          |                    |StdWndProc                              |10966|
+|004A0714|FamilyTree.exe|Controls.pas         |TWinControl         |ControlAtPos                            |6267 |
+|004A082F|FamilyTree.exe|Controls.pas         |TWinControl         |IsControlMouseMsg                       |6295 |
+|0049CC70|FamilyTree.exe|Controls.pas         |TControl            |WndProc                                 |4592 |
+|004A0A1E|FamilyTree.exe|Controls.pas         |TWinControl         |WndProc                                 |6342 |
+|004A05F0|FamilyTree.exe|Controls.pas         |TWinControl         |MainWndProc                             |6237 |
+|0042F53C|FamilyTree.exe|classes.pas          |                    |StdWndProc                              |10966|
+|76FE739A|ntdll.dll     |                     |                    |RtlGetNtGlobalFlags                     |     |
+|76FA3CA1|ntdll.dll     |                     |                    |RtlFreeHeap                             |     |
+|76FD2AEA|ntdll.dll     |                     |                    |NtCallbackReturn                        |     |
+|756F7D0B|user32.dll    |                     |                    |DispatchMessageA                        |     |
+|756F7D00|user32.dll    |                     |                    |DispatchMessageA                        |     |
+|004C2A2C|FamilyTree.exe|Forms.pas            |TApplication        |ProcessMessage                          |6873 |
+|004C2980|FamilyTree.exe|Forms.pas            |TApplication        |ProcessMessage                          |6860 |
+|004C2A73|FamilyTree.exe|Forms.pas            |TApplication        |HandleMessage                           |6892 |
+|004C2A64|FamilyTree.exe|Forms.pas            |TApplication        |HandleMessage                           |6891 |
+|004BEC80|FamilyTree.exe|Forms.pas            |TCustomForm         |ShowModal                               |4823 |
+|005862D1|FamilyTree.exe|uIndividual.pas      |TfrmIndividual      |LookupIndividual                        |1299 |
+|0058622C|FamilyTree.exe|uIndividual.pas      |TfrmIndividual      |LookupIndividual                        |1291 |
+|00587653|FamilyTree.exe|uIndividual.pas      |TfrmIndividual      |btnLookupClick                          |1568 |
+|0049D07A|FamilyTree.exe|Controls.pas         |TControl            |Click                                   |4705 |
+|0049CFF4|FamilyTree.exe|Controls.pas         |TControl            |Click                                   |4696 |
+|00490E73|FamilyTree.exe|StdCtrls.pas         |TButton             |Click                                   |3472 |
+|00404508|FamilyTree.exe|system.pas           |                    |_CallDynaInst                           |8706 |
+|00490FDA|FamilyTree.exe|StdCtrls.pas         |TButton             |CNCommand                               |3524 |
+|0049CE4F|FamilyTree.exe|Controls.pas         |TControl            |WndProc                                 |4645 |
+|76FAC837|ntdll.dll     |                     |                    |RtlDeactivateActivationContextUnsafeFast|     |
+|76FE739A|ntdll.dll     |                     |                    |RtlGetNtGlobalFlags                     |     |
+|76FA3CA1|ntdll.dll     |                     |                    |RtlFreeHeap                             |     |
+|76FA3C60|ntdll.dll     |                     |                    |RtlFreeHeap                             |     |
+|76F8BAB3|ntdll.dll     |                     |                    |RtlDeleteBoundaryDescriptor             |     |
+|76F8BAA0|ntdll.dll     |                     |                    |RtlDeleteBoundaryDescriptor             |     |
+|76FA3C42|ntdll.dll     |                     |                    |RtlFreeUTF8String                       |     |
+|763DC0A9|KERNEL32.DLL  |                     |                    |FindAtomW                               |     |
+|0049CC70|FamilyTree.exe|Controls.pas         |TControl            |WndProc                                 |4592 |
+|004A0A1E|FamilyTree.exe|Controls.pas         |TWinControl         |WndProc                                 |6342 |
+|004A0890|FamilyTree.exe|Controls.pas         |TWinControl         |WndProc                                 |6309 |
+|00490CC2|FamilyTree.exe|StdCtrls.pas         |TButtonControl      |WndProc                                 |3414 |
+|0049CB5A|FamilyTree.exe|Controls.pas         |TControl            |Perform                                 |4552 |
+|0049CB24|FamilyTree.exe|Controls.pas         |TControl            |Perform                                 |4547 |
+|004A0BE0|FamilyTree.exe|Controls.pas         |                    |DoControlMsg                            |6388 |
+|004A0BA4|FamilyTree.exe|Controls.pas         |                    |DoControlMsg                            |6382 |
+|004A13BD|FamilyTree.exe|Controls.pas         |TWinControl         |WMCommand                               |6574 |
+|004A13A8|FamilyTree.exe|Controls.pas         |TWinControl         |WMCommand                               |6573 |
+|004BD2D8|FamilyTree.exe|Forms.pas            |TCustomForm         |WMCommand                               |4116 |
+|756F3FF6|user32.dll    |                     |                    |CallWindowProcA                         |     |
+|756F3FE0|user32.dll    |                     |                    |CallWindowProcA                         |     |
+|004A0B64|FamilyTree.exe|Controls.pas         |TWinControl         |DefaultHandler                          |6369 |
+|0049CE4F|FamilyTree.exe|Controls.pas         |TControl            |WndProc                                 |4645 |
+|0049CC70|FamilyTree.exe|Controls.pas         |TControl            |WndProc                                 |4592 |
+|004A0A1E|FamilyTree.exe|Controls.pas         |TWinControl         |WndProc                                 |6342 |
+|76F9E7F0|ntdll.dll     |                     |                    |RtlLeaveCriticalSection                 |     |
+|00421C2A|FamilyTree.exe|classes.pas          |TThreadList         |UnlockList                              |3151 |
+|004A0890|FamilyTree.exe|Controls.pas         |TWinControl         |WndProc                                 |6309 |
+|004BAAE4|FamilyTree.exe|Forms.pas            |TCustomForm         |WndProc                                 |3098 |
+|004A05F0|FamilyTree.exe|Controls.pas         |TWinControl         |MainWndProc                             |6237 |
+|00469BB8|FamilyTree.exe|Graphics.pas         |                    |FreeMemoryContexts                      |4658 |
+|004A0605|FamilyTree.exe|Controls.pas         |TWinControl         |MainWndProc                             |6240 |
+|76FAC837|ntdll.dll     |                     |                    |RtlDeactivateActivationContextUnsafeFast|     |
+|004A05F0|FamilyTree.exe|Controls.pas         |TWinControl         |MainWndProc                             |6237 |
+|0042F53C|FamilyTree.exe|classes.pas          |                    |StdWndProc                              |10966|
+|7570587A|user32.dll    |                     |                    |SendMessageW                            |     |
+|75705810|user32.dll    |                     |                    |SendMessageW                            |     |
+|76FE7CC1|ntdll.dll     |                     |                    |RtlNumberOfSetBitsUlongPtr              |     |
+|756F3FF6|user32.dll    |                     |                    |CallWindowProcA                         |     |
+|756F3FE0|user32.dll    |                     |                    |CallWindowProcA                         |     |
+|004A0B64|FamilyTree.exe|Controls.pas         |TWinControl         |DefaultHandler                          |6369 |
+|0049D5A1|FamilyTree.exe|Controls.pas         |TControl            |WMLButtonUp                             |4836 |
+|0049CE4F|FamilyTree.exe|Controls.pas         |TControl            |WndProc                                 |4645 |
+|76FD47AA|ntdll.dll     |                     |                    |NtUpdateWnfStateData                    |     |
+|76FD47A0|ntdll.dll     |                     |                    |NtUpdateWnfStateData                    |     |
+|76FD2146|ntdll.dll     |                     |                    |RtlPublishWnfStateData                  |     |
+|76FA3CE0|ntdll.dll     |                     |                    |RtlGetCurrentServiceSessionId           |     |
+|76FD214D|ntdll.dll     |                     |                    |RtlPublishWnfStateData                  |     |
+|76FD2170|ntdll.dll     |                     |                    |RtlPublishWnfStateData                  |     |
+|76D44430|KERNELBASE.dll|                     |                    |CloseHandle                             |     |
+|004A3B04|FamilyTree.exe|Controls.pas         |TWinControl         |HandleNeeded                            |7792 |
+|004A3B48|FamilyTree.exe|Controls.pas         |TWinControl         |GetHandle                               |7802 |
+|75E0100A|win32u.dll    |                     |                    |NtUserGetThreadState                    |     |
+|7570F030|user32.dll    |                     |                    |GetCapture                              |     |
+|7570F020|user32.dll    |                     |                    |GetCapture                              |     |
+|004A07E7|FamilyTree.exe|Controls.pas         |TWinControl         |IsControlMouseMsg                       |6287 |
+|0049CC70|FamilyTree.exe|Controls.pas         |TControl            |WndProc                                 |4592 |
+|004A0A1E|FamilyTree.exe|Controls.pas         |TWinControl         |WndProc                                 |6342 |
+|004A0890|FamilyTree.exe|Controls.pas         |TWinControl         |WndProc                                 |6309 |
+|00490CC2|FamilyTree.exe|StdCtrls.pas         |TButtonControl      |WndProc                                 |3414 |
+|004A05F0|FamilyTree.exe|Controls.pas         |TWinControl         |MainWndProc                             |6237 |
+|0042F53C|FamilyTree.exe|classes.pas          |                    |StdWndProc                              |10966|
+|76FD2AEA|ntdll.dll     |                     |                    |NtCallbackReturn                        |     |
+|756F7D0B|user32.dll    |                     |                    |DispatchMessageA                        |     |
+|756F7D00|user32.dll    |                     |                    |DispatchMessageA                        |     |
+|004C2A2C|FamilyTree.exe|Forms.pas            |TApplication        |ProcessMessage                          |6873 |
+|004C2980|FamilyTree.exe|Forms.pas            |TApplication        |ProcessMessage                          |6860 |
+|004C2A73|FamilyTree.exe|Forms.pas            |TApplication        |HandleMessage                           |6892 |
+|004C2A64|FamilyTree.exe|Forms.pas            |TApplication        |HandleMessage                           |6891 |
+|004C2D0E|FamilyTree.exe|Forms.pas            |TApplication        |Run                                     |6976 |
+|004C2C68|FamilyTree.exe|Forms.pas            |TApplication        |Run                                     |6960 |
+|005A039F|FamilyTree.exe|FamilyTree.dpr       |                    |                                        |40   |
+|763E0097|KERNEL32.DLL  |                     |                    |BaseThreadInitThunk                     |     |
+-------------------------------------------------------------------------------------------------------------------
+
+Modules Information:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                           |Description                                                                      |Version            |Size   |Modified           |Path                                                                                                          |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|FamilyTree.exe                 |                                                                                 |                   |2206208|2017-12-18 12:02:00|F:\NDAS-I\D7\Projects\MyFamilyTree                                                                            |
+|0F9A0000|VBAJET32.DLL                   |Visual Basic for Applications Development Environment - Expression Service Loader|6.0.1.9431         |30749  |2019-12-07 05:09:30|C:\WINDOWS\SYSTEM32                                                                                           |
+|0F9C0000|expsrv.dll                     |Visual Basic for Applications Runtime - Expression Service                       |6.0.72.9589        |380957 |2019-12-07 05:09:30|C:\WINDOWS\SYSTEM32                                                                                           |
+|10000000|msadcer.dll                    |OLE DB Cursor Engine Resources                                                   |6.2.19041.1        |2560   |2019-12-07 05:10:04|C:\Program Files (x86)\Common Files\System\msadc                                                              |
+|5BD30000|policymanager.dll              |Policy Manager DLL                                                               |6.2.19041.2788     |544360 |2023-04-13 15:35:18|C:\WINDOWS\SYSTEM32                                                                                           |
+|5BE00000|DropboxExt.61.0.dll            |Dropbox Shell Extension                                                          |1.0.61.0           |527080 |2023-04-04 06:53:26|C:\Program Files (x86)\Dropbox\Client                                                                         |
+|5C040000|Windows.Storage.Search.dll     |Windows.Storage.Search                                                           |6.2.19041.2673     |628736 |2023-03-15 07:20:34|C:\WINDOWS\system32                                                                                           |
+|5C0E0000|StructuredQuery.dll            |Structured Query                                                                 |7.0.19041.746      |523728 |2021-01-13 01:11:32|C:\WINDOWS\System32                                                                                           |
+|62710000|Windows.FileExplorer.Common.dll|Windows.FileExplorer.Common                                                      |6.2.19041.1566     |279040 |2022-03-08 22:37:22|C:\Windows\System32                                                                                           |
+|67130000|PhotoMetadataHandler.dll       |Photo Metadata Handler                                                           |6.2.19041.746      |409600 |2021-01-13 01:11:28|C:\WINDOWS\system32                                                                                           |
+|67420000|Windows.StateRepositoryPS.dll  |Windows StateRepository Proxy/Stub Server                                        |6.2.19041.2673     |606016 |2023-03-15 07:20:32|C:\Windows\System32                                                                                           |
+|67D80000|ntshrui.dll                    |Shell extensions for sharing                                                     |6.2.19041.844      |357376 |2021-03-12 00:53:12|C:\WINDOWS\SYSTEM32                                                                                           |
+|67DE0000|thumbcache.dll                 |Microsoft Thumbnail Cache                                                        |6.2.19041.1466     |290672 |2022-01-11 14:10:32|C:\Windows\System32                                                                                           |
+|67FA0000|dlnashext.dll                  |DLNA Namespace DLL                                                               |6.2.19041.1949     |256512 |2022-09-13 20:35:44|C:\Windows\System32                                                                                           |
+|680A0000|tiptsf.dll                     |Touch Keyboard and Handwriting Panel Text Services Framework                     |6.2.19041.746      |525128 |2021-01-13 01:12:00|C:\Program Files (x86)\Common Files\microsoft shared\ink                                                      |
+|68130000|CoreMessaging.dll              |Microsoft CoreMessaging Dll                                                      |6.2.19041.2193     |631648 |2022-11-08 16:19:18|C:\WINDOWS\System32                                                                                           |
+|681D0000|CoreUIComponents.dll           |Microsoft Core UI Components Dll                                                 |6.2.19041.546      |2621720|2020-10-14 02:54:34|C:\WINDOWS\System32                                                                                           |
+|68450000|textinputframework.dll         |"TextInputFramework.DYNLINK"                                                     |6.2.19041.2546     |756744 |2023-02-14 21:42:22|C:\WINDOWS\SYSTEM32                                                                                           |
+|68510000|Oleacc.dll                     |Active Accessibility Core Component                                              |7.2.19041.746      |321024 |2021-01-13 01:11:38|C:\WINDOWS\system32                                                                                           |
+|68700000|WindowsCodecs.dll              |Microsoft Windows Codecs Library                                                 |6.2.19041.1706     |1511344|2022-05-11 01:43:00|C:\WINDOWS\SYSTEM32                                                                                           |
+|68880000|TextShaping.dll                |                                                                                 |                   |611960 |2021-10-13 06:51:50|C:\WINDOWS\SYSTEM32                                                                                           |
+|68970000|winspool.drv                   |Windows Spooler Driver                                                           |6.2.19041.2788     |451072 |2023-04-13 15:35:16|C:\WINDOWS\SYSTEM32                                                                                           |
+|69220000|DEVOBJ.dll                     |Device Information Set DLL                                                       |6.2.19041.1620     |139976 |2022-04-13 17:01:28|C:\WINDOWS\System32                                                                                           |
+|6C450000|d3d11.dll                      |Direct3D 11 Runtime                                                              |6.2.19041.2075     |1964760|2022-10-12 04:04:00|C:\WINDOWS\system32                                                                                           |
+|6C630000|wintypes.dll                   |Windows Base Types DLL                                                           |6.2.19041.2788     |899208 |2023-04-13 15:35:18|C:\WINDOWS\SYSTEM32                                                                                           |
+|6C710000|twinapi.appcore.dll            |twinapi.appcore                                                                  |6.2.19041.1865     |1635248|2022-08-09 23:00:50|C:\WINDOWS\system32                                                                                           |
+|6D2D0000|msadce.dll                     |OLE DB Cursor Engine                                                             |6.2.19041.746      |600064 |2021-01-13 01:12:00|C:\Program Files (x86)\Common Files\System\msadc                                                              |
+|6D370000|cldapi.dll                     |Cloud API user mode API                                                          |6.2.19041.1682     |99328  |2022-05-11 01:43:02|C:\Windows\System32                                                                                           |
+|6D530000|edputil.dll                    |EDP util                                                                         |6.2.19041.546      |93696  |2020-10-14 02:54:40|C:\WINDOWS\SYSTEM32                                                                                           |
+|6D610000|PortableDeviceApi.dll          |Windows Portable Device API Components                                           |6.2.19041.746      |520704 |2021-01-13 01:12:14|C:\Windows\System32                                                                                           |
+|6D6A0000|gdiplus.dll                    |Microsoft GDI+                                                                   |6.2.19041.2251     |1449984|2022-11-04 04:25:18|C:\WINDOWS\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.2251_none_d9513b1fe1046fc7         |
+|6D8E0000|msado15.dll                    |ActiveX Data Objects                                                             |6.2.19041.746      |1089024|2021-01-13 01:12:00|C:\Program Files (x86)\Common Files\System\ado                                                                |
+|6DA80000|wpdshext.dll                   |Portable Devices Shell Extension                                                 |6.2.19041.1949     |548352 |2022-09-13 20:35:44|C:\WINDOWS\system32                                                                                           |
+|6FFA0000|msjtes40.dll                   |Microsoft Jet Expression Service                                                 |4.0.9801.0         |290816 |2019-12-07 05:10:04|C:\Windows\System32                                                                                           |
+|6FFF0000|msjet40.dll                    |Microsoft Jet Engine Library                                                     |4.0.9801.32        |1317376|2021-10-13 06:52:06|C:\Windows\System32                                                                                           |
+|70180000|apphelp.dll                    |Application Compatibility Client Library                                         |6.2.19041.2546     |639488 |2023-02-14 21:42:22|C:\WINDOWS\SYSTEM32                                                                                           |
+|70230000|MSDART.DLL                     |OLE DB Runtime Routines                                                          |6.2.19041.1        |121344 |2019-12-07 05:09:30|C:\WINDOWS\SYSTEM32                                                                                           |
+|70290000|comsvcs.dll                    |COM+ Services                                                                    |2001.12.10941.16384|1352192|2022-01-11 14:10:34|C:\Windows\System32                                                                                           |
+|703F0000|FileSyncShell.dll              |Microsoft OneDrive Shell Extension                                               |23.81.416.1        |1592696|2023-05-02 10:31:14|C:\Users\dhdor\AppData\Local\Microsoft\OneDrive\23.081.0416.0001\i386                                         |
+|70580000|mswstr10.dll                   |Microsoft Jet Sort Library                                                       |4.0.9801.1         |640512 |2019-12-07 05:10:04|C:\Windows\System32                                                                                           |
+|70740000|PortableDeviceTypes.dll        |Windows Portable Device (Parameter) Types Component                              |6.2.19041.746      |145408 |2021-01-13 01:12:14|C:\Windows\System32                                                                                           |
+|70770000|MMDevApi.dll                   |MMDevice API                                                                     |6.2.19041.2075     |422544 |2022-10-12 04:03:56|C:\WINDOWS\System32                                                                                           |
+|707E0000|msjetoledb40.dll               |                                                                                 |4.0.9801.0         |518144 |2019-12-07 05:10:04|C:\Windows\System32                                                                                           |
+|70870000|oledb32.dll                    |OLE DB Core Services                                                             |6.2.19041.746      |801792 |2021-01-13 01:11:38|C:\Program Files (x86)\Common Files\System\Ole DB                                                             |
+|70C80000|WININET.dll                    |Internet Extensions for Win32                                                    |11.0.19041.2193    |4516864|2022-11-08 16:19:18|C:\WINDOWS\SYSTEM32                                                                                           |
+|71100000|dhcpcsvc6.DLL                  |DHCPv6 Client                                                                    |6.2.19041.2673     |61440  |2023-03-15 07:20:34|C:\WINDOWS\SYSTEM32                                                                                           |
+|71140000|WINSTA.dll                     |Winstation Library                                                               |6.2.19041.2075     |300624 |2022-10-12 04:03:58|C:\WINDOWS\System32                                                                                           |
+|71190000|propsys.dll                    |Microsoft Property System                                                        |7.0.19041.1741     |792832 |2022-06-14 23:23:06|C:\WINDOWS\system32                                                                                           |
+|71260000|profapi.dll                    |User Profile Basic API                                                           |6.2.19041.844      |89360  |2021-03-12 00:53:06|C:\WINDOWS\SYSTEM32                                                                                           |
+|71280000|Wldp.dll                       |Windows Lockdown Policy                                                          |6.2.19041.2788     |145176 |2023-04-13 15:35:18|C:\WINDOWS\SYSTEM32                                                                                           |
+|712B0000|windows.storage.dll            |Microsoft WinRT Storage API                                                      |6.2.19041.2788     |6377272|2023-04-13 15:35:18|C:\WINDOWS\SYSTEM32                                                                                           |
+|718C0000|atlthunk.dll                   |atlthunk.dll                                                                     |6.2.19041.546      |37376  |2020-10-14 02:54:32|C:\WINDOWS\SYSTEM32                                                                                           |
+|718D0000|ntmarta.dll                    |Windows NT MARTA provider                                                        |6.2.19041.546      |152904 |2020-10-14 02:54:40|C:\WINDOWS\SYSTEM32                                                                                           |
+|71910000|DPAPI.dll                      |Data Protection API                                                              |6.2.19041.546      |13312  |2020-10-14 02:54:40|C:\WINDOWS\SYSTEM32                                                                                           |
+|71970000|WINNSI.DLL                     |Network Store Information RPC interface                                          |6.2.19041.546      |28360  |2020-10-14 02:54:24|C:\WINDOWS\SYSTEM32                                                                                           |
+|719A0000|uxtheme.dll                    |Microsoft UxTheme Library                                                        |6.2.19041.2193     |454144 |2022-11-08 16:19:16|C:\WINDOWS\system32                                                                                           |
+|71A30000|dataexchange.dll               |Data exchange                                                                    |6.2.19041.1387     |183808 |2021-12-15 13:04:40|C:\WINDOWS\system32                                                                                           |
+|71A70000|castingshellext.dll            |Casting Shell Extensions                                                         |6.2.19041.746      |87552  |2021-01-13 01:12:14|C:\WINDOWS\SYSTEM32                                                                                           |
+|71AE0000|netprofm.dll                   |Network List Manager                                                             |6.2.19041.2311     |184832 |2022-12-14 02:01:34|C:\WINDOWS\System32                                                                                           |
+|71B20000|DevDispItemProvider.dll        |DeviceItem inproc devquery subsystem                                             |6.2.19041.546      |101744 |2020-10-14 02:54:38|C:\Windows\System32                                                                                           |
+|71C20000|dcomp.dll                      |Microsoft DirectComposition Library                                              |6.2.19041.2546     |1450368|2023-02-14 21:42:26|C:\WINDOWS\system32                                                                                           |
+|71E20000|npmproxy.dll                   |Network List Manager Proxy                                                       |6.2.19041.2311     |26624  |2022-12-14 02:01:34|C:\WINDOWS\System32                                                                                           |
+|71E30000|PlayToDevice.dll               |PLAYTODEVICE DLL                                                                 |6.2.19041.746      |280576 |2021-01-13 01:11:56|C:\Windows\System32                                                                                           |
+|71E80000|AssignedAccessRuntime.dll      |AssignedAccessRuntime                                                            |6.2.19041.1320     |47104  |2021-11-09 17:59:46|C:\Windows\System32                                                                                           |
+|71E90000|MSJINT40.DLL                   |Microsoft Jet Database Engine International DLL                                  |4.0.9801.1         |8704   |2019-12-07 05:10:04|C:\Windows\System32                                                                                           |
+|71EB0000|msjter40.dll                   |Microsoft Jet Database Engine Error DLL                                          |4.0.9801.0         |83968  |2019-12-07 05:10:04|C:\Windows\System32                                                                                           |
+|71F10000|DNSAPI.dll                     |DNS Client API DLL                                                               |6.2.19041.2546     |586776 |2023-02-14 21:42:26|C:\WINDOWS\SYSTEM32                                                                                           |
+|71FE0000|cscapi.dll                     |Offline Files Win32 API                                                          |6.2.19041.546      |40960  |2020-10-14 02:54:42|C:\WINDOWS\SYSTEM32                                                                                           |
+|71FF0000|FLTLIB.DLL                     |Filter Library                                                                   |6.2.19041.546      |27848  |2020-10-14 02:54:40|C:\Windows\System32                                                                                           |
+|72160000|LINKINFO.dll                   |Windows Volume Tracking                                                          |6.2.19041.546      |23552  |2020-10-14 02:54:44|C:\WINDOWS\SYSTEM32                                                                                           |
+|72170000|davclnt.dll                    |Web DAV Client DLL                                                               |6.2.19041.546      |78848  |2020-10-14 02:54:54|C:\WINDOWS\System32                                                                                           |
+|72190000|ntlanman.dll                   |Microsoft® Lan Manager                                                           |6.2.19041.2604     |79872  |2023-02-14 21:42:28|C:\WINDOWS\System32                                                                                           |
+|721B0000|msvcp110_win.dll               |Microsoft® STL110 C++ Runtime Library                                            |6.2.19041.546      |408000 |2020-10-14 02:54:30|C:\WINDOWS\SYSTEM32                                                                                           |
+|723C0000|wsock32.dll                    |Windows Socket 32-Bit DLL                                                        |6.2.19041.1        |16384  |2019-12-07 05:09:16|C:\WINDOWS\SYSTEM32                                                                                           |
+|723D0000|DAVHLPR.dll                    |DAV Helper DLL                                                                   |6.2.19041.546      |21504  |2020-10-14 02:54:42|C:\WINDOWS\System32                                                                                           |
+|723E0000|drprov.dll                     |Microsoft Remote Desktop Session Host Server Network Provider                    |6.2.19041.546      |20480  |2020-10-14 02:54:54|C:\WINDOWS\System32                                                                                           |
+|723F0000|NetworkExplorer.dll            |Network Explorer                                                                 |6.2.19041.1        |64512  |2019-12-07 05:09:28|C:\WINDOWS\system32                                                                                           |
+|72410000|dwmapi.dll                     |Microsoft Desktop Window Manager API                                             |6.2.19041.746      |138936 |2021-01-13 01:11:36|C:\WINDOWS\SYSTEM32                                                                                           |
+|725D0000|MSASN1.dll                     |ASN.1 Runtime APIs                                                               |6.2.19041.2251     |51664  |2022-11-08 16:19:18|C:\WINDOWS\System32                                                                                           |
+|725E0000|MPR.dll                        |Multiple Provider Router DLL                                                     |6.2.19041.1806     |94536  |2022-07-13 07:55:24|C:\WINDOWS\SYSTEM32                                                                                           |
+|72600000|comctl32.dll                   |Common Controls Library                                                          |5.82.19041.1110    |568144 |2021-07-09 08:47:22|C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1110_none_c0da534e38c01f4d|
+|72690000|SspiCli.dll                    |Security Support Provider Interface                                              |6.2.19041.2130     |125056 |2022-10-12 04:03:56|C:\WINDOWS\SYSTEM32                                                                                           |
+|726C0000|iertutil.dll                   |Run time utility for Internet Explorer                                           |11.0.19041.2788    |2273128|2023-04-13 15:35:18|C:\Windows\System32                                                                                           |
+|728F0000|CRYPTBASE.dll                  |Base cryptographic API DLL                                                       |6.2.19041.546      |31528  |2020-10-14 02:54:30|C:\WINDOWS\SYSTEM32                                                                                           |
+|72900000|srvcli.dll                     |Server Service Client DLL                                                        |6.2.19041.1645     |78016  |2022-04-13 17:01:28|C:\WINDOWS\SYSTEM32                                                                                           |
+|72950000|dhcpcsvc.DLL                   |DHCP Client Service                                                              |6.2.19041.2673     |73728  |2023-03-15 07:20:34|C:\WINDOWS\SYSTEM32                                                                                           |
+|72BF0000|version.dll                    |Version Checking and File Installation Libraries                                 |6.2.19041.546      |27320  |2020-10-14 02:54:44|C:\WINDOWS\SYSTEM32                                                                                           |
+|72C30000|dxgi.dll                       |DirectX Graphics Infrastructure                                                  |6.2.19041.2311     |785056 |2022-12-14 02:01:30|C:\WINDOWS\system32                                                                                           |
+|72D00000|Secur32.dll                    |Security Support Provider Interface                                              |6.2.19041.546      |23040  |2020-10-14 02:54:42|C:\WINDOWS\SYSTEM32                                                                                           |
+|72D10000|netutils.dll                   |Net Win32 API Helpers DLL                                                        |6.2.19041.1466     |38232  |2022-01-11 14:10:34|C:\WINDOWS\System32                                                                                           |
+|72D20000|wkscli.dll                     |Workstation Service Client DLL                                                   |6.2.19041.1645     |64552  |2022-04-13 17:01:28|C:\WINDOWS\System32                                                                                           |
+|72D40000|IPHLPAPI.DLL                   |IP Helper API                                                                    |6.2.19041.2788     |201440 |2023-04-13 15:35:18|C:\Windows\System32                                                                                           |
+|72F10000|comctl32.DLL                   |User Experience Controls Library                                                 |6.10.19041.1110    |2152264|2021-07-09 08:47:26|C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_a8625c1886757984 |
+|73120000|kernel.appcore.dll             |AppModel API Host                                                                |6.2.19041.546      |52672  |2020-10-14 02:54:36|C:\WINDOWS\SYSTEM32                                                                                           |
+|73130000|WTSAPI32.dll                   |Windows Remote Desktop Session Host Server SDK APIs                              |6.2.19041.546      |52664  |2020-10-14 02:54:32|C:\WINDOWS\SYSTEM32                                                                                           |
+|73140000|USERENV.dll                    |Userenv                                                                          |6.2.19041.572      |141008 |2020-10-14 02:54:40|C:\WINDOWS\SYSTEM32                                                                                           |
+|74E10000|IMM32.DLL                      |Multi-User Windows IMM32 API Client DLL                                          |6.2.19041.2673     |146888 |2023-03-15 07:20:34|C:\WINDOWS\System32                                                                                           |
+|74E40000|msvcrt.dll                     |Windows NT CRT DLL                                                               |7.0.19041.546      |775256 |2020-10-14 02:54:30|C:\WINDOWS\System32                                                                                           |
+|74F00000|SHLWAPI.dll                    |Shell Light-weight Utility Library                                               |6.2.19041.2075     |276840 |2022-10-12 04:04:04|C:\WINDOWS\System32                                                                                           |
+|74F50000|msvcp_win.dll                  |Microsoft® C Runtime Library                                                     |6.2.19041.789      |495840 |2021-02-10 17:11:32|C:\WINDOWS\System32                                                                                           |
+|74FD0000|RPCRT4.dll                     |Remote Procedure Call Runtime                                                    |6.2.19041.2846     |781456 |2023-04-13 15:35:16|C:\WINDOWS\System32                                                                                           |
+|75090000|comdlg32.dll                   |Common Dialogs DLL                                                               |6.2.19041.1806     |688128 |2022-07-13 07:55:24|C:\WINDOWS\System32                                                                                           |
+|75140000|SETUPAPI.dll                   |Windows Setup API                                                                |6.2.19041.2193     |4435728|2022-11-08 16:19:18|C:\WINDOWS\System32                                                                                           |
+|755E0000|ole32.dll                      |Microsoft OLE for Windows                                                        |6.2.19041.1202     |926560 |2021-09-26 07:49:18|C:\WINDOWS\System32                                                                                           |
+|756D0000|user32.dll                     |Multi-User Windows USER API Client DLL                                           |6.2.19041.2846     |1681208|2023-04-13 15:35:18|C:\WINDOWS\System32                                                                                           |
+|759E0000|NSI.dll                        |NSI User-mode interface DLL                                                      |6.2.19041.610      |20144  |2020-11-10 18:10:02|C:\WINDOWS\System32                                                                                           |
+|759F0000|ucrtbase.dll                   |Microsoft® C Runtime Library                                                     |6.2.19041.789      |1181208|2021-02-10 17:11:32|C:\WINDOWS\System32                                                                                           |
+|75B10000|MSCTF.dll                      |MSCTF Server DLL                                                                 |6.2.19041.2673     |863768 |2023-03-15 07:20:32|C:\WINDOWS\System32                                                                                           |
+|75BF0000|oleaut32.dll                   |OLEAUT32.DLL                                                                     |6.2.19041.985      |606888 |2021-05-14 01:20:52|C:\WINDOWS\System32                                                                                           |
+|75C90000|CRYPT32.dll                    |Crypto API32                                                                     |6.2.19041.2486     |1014400|2023-01-10 15:10:40|C:\WINDOWS\System32                                                                                           |
+|75D90000|bcryptPrimitives.dll           |Windows Cryptographic Primitives Library                                         |6.2.19041.2486     |384312 |2023-01-10 15:10:38|C:\WINDOWS\System32                                                                                           |
+|75DF0000|PSAPI.DLL                      |Process Status Helper                                                            |6.2.19041.546      |17016  |2020-10-14 02:54:38|C:\WINDOWS\System32                                                                                           |
+|75E00000|win32u.dll                     |Win32u                                                                           |6.2.19041.2846     |94040  |2023-04-13 15:35:18|C:\WINDOWS\System32                                                                                           |
+|75E20000|combase.dll                    |Microsoft COM for Windows                                                        |6.2.19041.2788     |2633112|2023-04-13 15:35:18|C:\WINDOWS\System32                                                                                           |
+|760A0000|bcrypt.dll                     |Windows Cryptographic Primitives Library                                         |6.2.19041.2486     |97608  |2023-01-10 15:10:40|C:\WINDOWS\System32                                                                                           |
+|76120000|GDI32.dll                      |GDI Client DLL                                                                   |6.2.19041.2130     |139432 |2022-10-12 04:04:00|C:\WINDOWS\System32                                                                                           |
+|76150000|sechost.dll                    |Host for SCM/SDDL/LSA Lookup APIs                                                |6.2.19041.2846     |477840 |2023-04-13 15:35:16|C:\WINDOWS\System32                                                                                           |
+|761E0000|CFGMGR32.dll                   |Configuration Manager DLL                                                        |6.2.19041.1620     |237568 |2022-04-13 17:01:28|C:\WINDOWS\System32                                                                                           |
+|762B0000|shcore.dll                     |SHCORE                                                                           |6.2.19041.1645     |545984 |2022-04-13 17:01:28|C:\WINDOWS\System32                                                                                           |
+|76340000|advapi32.dll                   |Advanced Windows 32 Base API                                                     |6.2.19041.2130     |496392 |2022-10-12 04:03:56|C:\WINDOWS\System32                                                                                           |
+|763C0000|KERNEL32.DLL                   |Windows NT BASE API Client DLL                                                   |6.2.19041.2788     |646024 |2023-04-13 15:35:16|C:\WINDOWS\System32                                                                                           |
+|76510000|gdi32full.dll                  |GDI Client DLL                                                                   |6.2.19041.2846     |911672 |2023-04-13 15:35:18|C:\WINDOWS\System32                                                                                           |
+|76620000|WINTRUST.dll                   |Microsoft Trust Verification APIs                                                |6.2.19041.2788     |311952 |2023-04-13 15:35:18|C:\WINDOWS\System32                                                                                           |
+|76670000|shell32.dll                    |Windows Shell Common Dll                                                         |6.2.19041.2788     |6017784|2023-04-13 15:35:20|C:\WINDOWS\System32                                                                                           |
+|76C30000|KERNELBASE.dll                 |Windows NT BASE API Client DLL                                                   |6.2.19041.2846     |2242680|2023-04-13 15:35:12|C:\WINDOWS\System32                                                                                           |
+|76E60000|WS2_32.dll                     |Windows Socket 2.0 32-Bit DLL                                                    |6.2.19041.546      |397728 |2020-10-14 02:54:30|C:\WINDOWS\System32                                                                                           |
+|76ED0000|clbcatq.dll                    |COM+ Configuration Catalog                                                       |2001.12.10941.16384|505600 |2023-02-14 21:42:22|C:\WINDOWS\System32                                                                                           |
+|76F60000|ntdll.dll                      |NT Layer DLL                                                                     |6.2.19041.2788     |1699928|2023-04-13 15:35:16|C:\WINDOWS\SYSTEM32                                                                                           |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Registers:
+-----------------------------
+EAX: 0240E748   EDI: 00000203
+EBX: 02420368   ESI: 00547100
+ECX: 00000000   ESP: 0019EA2C
+EDX: 004D2DA5   EIP: 004D2DA0
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0019EA2C: 0019EA5C   004D2DA0: E8 FF 1D F3 FF 33 C0 5A 59 59 64 89 10 68 C2 2D  .....3.ZYYd..h.-
+0019EA30: 00404AD8   004D2DB0: 4D 00 8D 45 F4 E8 96 24 F3 FF C3 E9 E8 1C F3 FF  M..E...$........
+0019EA34: 0019EA54   004D2DC0: EB F0 8B E5 5D C3 00 00 FF FF FF FF 06 00 00 00  ....]...........
+0019EA38: 00507CFC   004D2DD0: 25 73 3A 20 25 73 00 00 55 8B EC 83 C4 F0 53 33  %s: %s..U.....S3
+0019EA3C: 0A5B1A20   004D2DE0: DB 89 5D F0 89 4D F4 89 55 F8 89 45 FC 33 C0 55  ..]..M..U..E.3.U
+0019EA40: 01008000   004D2DF0: 68 2E 2E 4D 00 64 FF 30 64 89 20 8D 45 F0 50 8B  h..M.d.0d. .E.P.
+0019EA44: 00507D01   004D2E00: 55 F8 8B 4D F4 8B 45 FC E8 EB 90 F3 FF 8B 45 F0  U..M..E.......E.
+0019EA48: 00000000   004D2E10: 8B 55 08 E8 08 FF FF FF 33 C0 5A 59 59 64 89 10  .U......3.ZYYd..
+0019EA4C: 0241A06C   004D2E20: 68 35 2E 4D 00 8D 45 F0 E8 23 24 F3 FF C3 E9 75  h5.M..E..#$....u
+0019EA50: 0241EE00   004D2E30: 1C F3 FF EB F0 5B 8B E5 5D C2 04 00 55 8B EC 83  .....[..]...U...
+0019EA54: 0019EA70   004D2E40: C4 E4 53 33 DB 89 5D EC 89 4D F4 89 55 F8 89 45  ..S3..]..M..U..E
+0019EA58: 004E52B3   004D2E50: FC 33 C0 55 68 B3 2E 4D 00 64 FF 30 64 89 20 8B  .3.Uh..M.d.0d. .
+0019EA5C: 0019EC6C   004D2E60: 55 F4 8B 45 FC E8 AA FA 00 00 89 45 F0 83 7D F0  U..E.......E..}.
+0019EA60: 00404AD8   004D2E70: 00 75 2A 8B 45 F8 50 8D 55 EC A1 68 E2 5A 00 E8  .u*.E.P.U..h.Z..
+0019EA64: 0019EA70   004D2E80: 70 48 F3 FF 8B 45 EC 50 8B 45 F4 89 45 E4 C6 45  pH...E.P.E..E..E
+0019EA68: 00000000   004D2E90: E8 0B 8D 55 E4 33 C9 58 E8 3B FF FF FF 33 C0 5A  ...U.3.X.;...3.Z
+
+
+
